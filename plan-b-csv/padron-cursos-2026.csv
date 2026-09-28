@@ -1,0 +1,27 @@
+﻿Clave,Nombre del Curso,Instructor,Sede,Periodo,Cupo,Inscritos,% Ocupacion,Evaluacion Promedio,Estatus,Fecha Inicio,Fecha Fin
+IA-180,IA Aplicada a la Docencia,Jorge Garza,Campus Guadalajara,Enero-Mayo 2026,40,18,45,,En curso,2026-01-15,2026-05-22
+DI-101,Diseno Instruccional Basico,Carla Mendoza,EAD (Linea),Enero-Mayo 2026,30,15,50,3.91,En curso,2026-01-15,2026-05-22
+MUL-150,Recursos Multimedia Educativos,Jorge Garza,EAD (Linea),Enero-Mayo 2026,20,20,100,4.04,En curso,2026-01-15,2026-05-22
+ACC-170,Accesibilidad e Inclusion Digital,Jorge Garza,Campus Queretaro,Enero-Mayo 2026,30,28,93.3,4.76,En curso,2026-01-15,2026-05-22
+EVA-110,Evaluacion del Aprendizaje,Ana Solis,Campus Puebla,Enero-Mayo 2026,28,25,89.3,,En curso,2026-01-15,2026-05-22
+MIC-200,Microcredenciales y Badges,Diana Ramos,Campus Guadalajara,Agosto-Diciembre 2026,24,9,37.5,4.8,Programado,2026-08-10,2026-12-04
+GAM-190,Gamificacion en el Aula,Hector Trevino,EAD (Linea),Verano 2026,28,25,89.3,4.3,Programado,2026-06-08,2026-07-17
+PED-140,Pedagogia Activa,Mariana Salinas,Campus Puebla,Enero-Mayo 2026,25,13,52,4.42,En curso,2026-01-15,2026-05-22
+CAN-130,Canvas LMS para Profesores,Luis Sepulveda,EAD (Linea),Verano 2026,30,19,63.3,4.89,Programado,2026-06-08,2026-07-17
+DI-101,Diseno Instruccional Basico,Luis Sepulveda,Campus Monterrey,Verano 2026,30,24,80,,Programado,2026-06-08,2026-07-17
+DI-201,Diseno Instruccional Avanzado,Carla Mendoza,Campus Guadalajara,Verano 2026,25,22,88,4.04,Programado,2026-06-08,2026-07-17
+ACC-170,Accesibilidad e Inclusion Digital,Fernando Cardenas,Campus Queretaro,Verano 2026,30,25,83.3,3.98,Programado,2026-06-08,2026-07-17
+MUL-150,Recursos Multimedia Educativos,Luis Sepulveda,Campus Puebla,Verano 2026,20,8,40,3.97,Programado,2026-06-08,2026-07-17
+GAM-190,Gamificacion en el Aula,Diana Ramos,Campus Puebla,Enero-Mayo 2026,28,26,92.9,4.56,En curso,2026-01-15,2026-05-22
+PED-140,Pedagogia Activa,Patricia Lozano,EAD (Linea),Verano 2026,25,25,100,4.09,Programado,2026-06-08,2026-07-17
+IA-180,IA Aplicada a la Docencia,Etna Villarreal,Campus Queretaro,Verano 2026,40,34,85,4.84,Programado,2026-06-08,2026-07-17
+ACC-170,Accesibilidad e Inclusion Digital,Luis Sepulveda,Campus Monterrey,Agosto-Diciembre 2026,30,27,90,,Programado,2026-08-10,2026-12-04
+DI-201,Diseno Instruccional Avanzado,Etna Villarreal,Campus Monterrey,Agosto-Diciembre 2026,25,22,88,4.46,Programado,2026-08-10,2026-12-04
+ANL-160,Analitica del Aprendizaje,Mariana Salinas,Campus Monterrey,Agosto-Diciembre 2026,22,10,45.5,4.85,Programado,2026-08-10,2026-12-04
+EVA-110,Evaluacion del Aprendizaje,Fernando Cardenas,Campus Queretaro,Verano 2026,28,24,85.7,4.58,Programado,2026-06-08,2026-07-17
+ANL-160,Analitica del Aprendizaje,Diana Ramos,Campus Monterrey,Enero-Mayo 2026,22,21,95.5,4.38,En curso,2026-01-15,2026-05-22
+HER-120,Herramientas Digitales para Docentes,Mariana Salinas,Campus Ciudad de Mexico,Agosto-Diciembre 2026,35,18,51.4,4.55,Programado,2026-08-10,2026-12-04
+HER-120,Herramientas Digitales para Docentes,Etna Villarreal,Campus Guadalajara,Verano 2026,35,34,97.1,4.5,Programado,2026-06-08,2026-07-17
+ANL-160,Analitica del Aprendizaje,Carla Mendoza,EAD (Linea),Verano 2026,22,22,100,4.63,Programado,2026-06-08,2026-07-17
+DI-201,Diseno Instruccional Avanzado,Carla Mendoza,Campus Queretaro,Enero-Mayo 2026,25,18,72,4.29,En curso,2026-01-15,2026-05-22
+CAN-130,Canvas LMS para Profesores,Luis Sepulveda,Campus Guadalajara,Agosto-Diciembre 2026,30,30,100,3.86,Programado,2026-08-10,2026-12-04
