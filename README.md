@@ -1,6 +1,6 @@
 # Kit del participante · archivos de práctica
 
-Archivos **ficticios** que imitan los que maneja Ed Digital. Sirven para practicar con el agente cuando no traes archivos propios, o cuando los tuyos contienen datos personales de profesores o alumnos. Los tres primeros vienen de la Sesión 1; los otros cuatro y la carpeta `plan-b-csv` se agregaron para la Sesión 2.
+Archivos **ficticios** que imitan los que maneja Ed Digital. Sirven para practicar con el agente cuando no traes archivos propios, o cuando los tuyos contienen datos personales de profesores o alumnos. Los tres primeros vienen de la Sesión 1; los otros cuatro y la carpeta `plan-b-csv` se agregaron para la Sesión 2. **Desde la Sesión 4, cada sesión agrega su propia carpeta `sesion-NN`** con los archivos de sus ejemplos y su `LEEME.md`; lo que ya tenías en el kit no cambia.
 
 | Archivo | Qué imita | Preguntas de arranque |
 |---|---|---|
@@ -12,12 +12,33 @@ Archivos **ficticios** que imitan los que maneja Ed Digital. Sirven para practic
 | `AGENTS-plantilla.md` | Plantilla en blanco del AGENTS.md, con sus cuatro secciones | "Usa AGENTS-plantilla.md como guía, hazme cinco preguntas y muéstrame el resultado antes de guardarlo como AGENTS.md. No modifiques AGENTS-plantilla.md ni crees un CLAUDE.md." |
 | `AGENTS-ejemplo.md` | AGENTS.md lleno para la coordinación de programación de cursos | "Lee AGENTS-ejemplo.md y dime qué le cambiarías para que sirva en mi trabajo" |
 | `plan-b-csv/` | Copias en CSV de las hojas Padron Cursos 2026 e Instructores y de la programación, con las mismas filas que el Excel; instrucciones en su `LEEME.md` | "Trabaja con plan-b-csv\padron-cursos-2026.csv en lugar del Excel" |
+| `sesion-04/` | Archivos de la Sesión 4: la asistencia a los webinars de septiembre (`asistencia-webinars-septiembre.xlsx`), las solicitudes de constancia (`solicitudes-constancias.csv`) y un skill de documentar ya escrito (`skill-de-referencia/documentar/`); instrucciones en su `LEEME.md` | Ver **Sesión 4 · los skills**, abajo |
 
 **Cómo tenerlo en tu computadora:** este kit vive en el repositorio público `https://github.com/jorgeeduai/kit-ia-ed-digital`. Abre el agente en `Documents\claude-proyectos` y pídele: "Clona el repositorio https://github.com/jorgeeduai/kit-ia-ed-digital en una carpeta llamada kit y otra vez en una carpeta llamada kit-agy". Quedan dos carpetas con los mismos archivos, una para cada agente. Si prefieres hacerlo tú, en PowerShell, desde `claude-proyectos`: `git clone https://github.com/jorgeeduai/kit-ia-ed-digital kit` (y lo mismo con `kit-agy`).
 
-**Cómo actualizarlo en la siguiente sesión:** abre el agente en `claude-proyectos` y pídele "Actualiza las carpetas kit y kit-agy con git pull". Tus archivos nuevos (tu AGENTS.md, los Excel que creó el agente) no se pierden. Si el agente avisa que cambiaste un archivo del kit, pídele que descarte esos cambios y vuelva a actualizar.
+**Cómo actualizarlo en la siguiente sesión:** abre el agente en `claude-proyectos` y pídele "Actualiza las carpetas kit y kit-agy con git pull" (desde la Sesión 3, también `kit-codex`). Tus archivos nuevos (tu AGENTS.md, los Excel, Word y PowerPoint que creó el agente) no se pierden. Tu hoja de comparación llena vive en `kit`: si `git pull` avisa de cambios locales, no descartes nada. Déjalo como está y sigue; el kit que ya tienes basta para la práctica.
 
-**Sin git:** descarga el .zip de la página del curso y deja sus archivos directamente dentro de `Documents\claude-proyectos\kit`, sin la carpeta `kit-participante`.
+**Sesión 3 · la carpeta de Codex:** Codex, el tercer agente, trabaja en su propia carpeta, `kit-codex`, otra copia de este mismo kit con tu mismo AGENTS.md. Se prepara con el agente abierto en `claude-proyectos`: "Actualiza las carpetas kit y kit-agy con git pull. Después clona https://github.com/jorgeeduai/kit-ia-ed-digital en una carpeta llamada kit-codex y copia a ella el AGENTS.md de kit." Codex se abre en `kit-codex` y lee ese AGENTS.md; Claude Code sigue en `kit`. El Word y el PowerPoint que salen de la práctica (`reporte-cursos-en-riesgo.docx` y `cursos-en-riesgo-por-sede.pptx`) quedan en la carpeta del agente que los creó, y las filas nuevas de la comparación van en tu misma `comparacion-dos-agentes.xlsx` de `kit`.
+
+**Sesión 4 · los skills:** un skill es una receta escrita que el agente sigue cuando la tarea lo pide: una carpeta con un archivo `SKILL.md` que empieza con `name` (el nombre) y `description` (cuándo usarlo), y debajo los pasos en texto. El AGENTS.md describe la carpeta y el agente lo lee siempre; el skill describe cómo se hace una tarea y el agente lo lee cuando la tarea lo pide. Los tres agentes aceptan el mismo archivo, pero lo buscan en carpetas distintas:
+
+| Agente | Carpeta de usuario (sirve en todas las carpetas) | Carpeta del proyecto (solo donde se abre) |
+|---|---|---|
+| Claude Code | `.claude\skills\` en la carpeta de usuario | `.claude\skills\` en la carpeta de trabajo |
+| Codex | `.agents\skills\` en la carpeta de usuario | `.agents\skills\` en la carpeta de trabajo |
+| Antigravity CLI | ninguna | `.agents\skills\` en la carpeta de trabajo |
+
+Por eso el mismo skill en los tres agentes son dos copias en la carpeta de trabajo: `.claude\skills\documentar\` y `.agents\skills\documentar\`, con el mismo texto. En la sesión, cada quien crea en `kit` su skill de documentar con el agente. Se usa al cerrar una tarea sobre archivos, escribiendo solo `documenta`: el agente guarda el script en `scripts\`, escribe un ADR numerado en `documentacion\adr\` y agrega una línea a `documentacion\BITACORA.md`.
+
+**La carpeta de la Sesión 4:** llega a tu `kit` con `git pull`. Con Claude Code abierto en `kit`, al empezar la sesión: "Actualiza esta carpeta con git pull y dime qué carpeta nueva llegó." Debe llegar `sesion-04`. Sus dos archivos son las tareas del ejemplo 1: `asistencia-webinars-septiembre.xlsx` con Claude Code y `solicitudes-constancias.csv` con un segundo agente, las dos terminadas con `documenta`.
+
+**Si tu skill de documentar no salió:** `sesion-04` trae uno de referencia en `skill-de-referencia\documentar\`, con su plantilla de ADR en `resources\`. Vive en una carpeta aparte para no chocar con el que creas en la sesión, y ahí ningún agente lo carga: está guardado para copiarlo. Con el agente abierto en `kit`, pídele:
+
+"Copia la carpeta sesion-04/skill-de-referencia/documentar a .claude/skills/documentar y a .agents/skills/documentar, y confirma que existe el SKILL.md en las dos."
+
+Si después, al escribir `documenta`, el agente no lo sigue, sal y vuelve a abrirlo en `kit`.
+
+**Sin git:** descarga el .zip de la página del curso y deja sus archivos directamente dentro de `Documents\claude-proyectos\kit`, sin la carpeta `kit-participante`. Si ya tienes `kit` y solo te falta la carpeta de una sesión, copia del zip esa carpeta (por ejemplo, `sesion-04`) dentro de `kit`.
 
 **Si el agente no puede abrir el Excel** o propone instalar un programa para leerlo: responde No y pídele que use los CSV de `plan-b-csv`. Ahí mismo, `LEEME.md` explica cómo guardar un Excel propio como CSV.
 
