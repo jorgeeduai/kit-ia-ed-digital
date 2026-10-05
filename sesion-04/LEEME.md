@@ -6,6 +6,7 @@ Carpeta de trabajo de la Sesión 4. Llega a tu `kit` con `git pull`; nada de lo 
 |---|---|---|
 | `asistencia-webinars-septiembre.xlsx` | Registro de los webinars de un mes: clave, nombre, fecha, ponente, inscritos y asistentes | Ejemplo 1, paso 3: una tarea nueva y luego la palabra `documenta` |
 | `solicitudes-constancias.csv` | Solicitudes de constancia de un mes: folio, curso, campus, estatus y fechas | Ejemplo 1, paso 4: la misma palabra en un segundo agente |
+| `protocolo-constancias.docx` | Protocolo interno de constancias del área: requisitos, plazo de entrega, seguimiento y reposición. Habla del mismo registro que `solicitudes-constancias.csv` | Ejemplo 2: la fuente del cuaderno "Protocolo de constancias" en Gemini Notebook |
 | `skill-de-referencia/documentar/` | Un skill de documentar ya escrito, con su plantilla de ADR | Plan B si tu skill no salió: se copia a `.claude\skills\` y `.agents\skills\` |
 
 El skill de referencia vive en esta carpeta aparte para no chocar con el que creas en la sesión; aquí ningún agente lo carga. Para usarlo, con el agente abierto en `kit`:
